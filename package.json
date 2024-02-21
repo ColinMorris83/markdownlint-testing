@@ -1,0 +1,19 @@
+{
+  "name": "markdownlint-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@optimizely/js-sdk-logging": "0.3.1"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "0.39.0"
+  },
+  "scripts": {
+    "version": "markdownlint --version",
+    "include": "markdownlint '**/*.md'",
+    "exclude": "markdownlint '**/*.md' --ignore node_modules"
+  }
+}
