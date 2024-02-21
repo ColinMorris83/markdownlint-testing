@@ -13,7 +13,7 @@
   },
   "scripts": {
     "version": "markdownlint --version",
-    "include": "markdownlint '**/*.md'",
-    "exclude": "markdownlint '**/*.md' --ignore node_modules"
+    "include": "markdownlint \"**/*.md\"",
+    "exclude": "markdownlint \"**/*.md\" --ignore node_modules"
   }
 }
